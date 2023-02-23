@@ -2,7 +2,7 @@ import prompt
 from random import randint
 
 
-def even_numbers():
+def even_test():
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -11,9 +11,10 @@ def even_numbers():
     if num1 % 2 == 0:
         correct_answer1 = 'yes'
     else:
-         correct_answer1 = 'no'
+        correct_answer1 = 'no'
     if answer1 != correct_answer1:
-        print(f"{answer1} is wrong answer ;(. Correct answer was {correct_answer1}.")
+        print(f"{answer1} is wrong answer ;(. Correct\
+ answer was {correct_answer1}.")
         print(f"Let's try again, {name}")
     else:
         print('Correct!')
@@ -24,7 +25,8 @@ def even_numbers():
         else:
             correct_answer2 = 'no'
         if answer2 != correct_answer2:
-            print(f"{answer2} is wrong answer ;(. Correct answer was {correct_answer2}.")
+            print(f"{answer2} is wrong answer ;(. Correct\
+ answer was {correct_answer2}.")
             print(f"Let's try again, {name}")
         else:
             print('Correct!')
@@ -35,7 +37,8 @@ def even_numbers():
             else:
                 correct_answer3 = 'no'
             if answer3 != correct_answer3:
-                print(f"{answer3} is wrong answer ;(. Correct answer was {correct_answer3}.")
+                print(f"{answer3} is wrong answer ;(. Correct\
+ answer was {correct_answer3}.")
                 print(f"Let's try again, {name}")
             else:
                 print('Correct!')
