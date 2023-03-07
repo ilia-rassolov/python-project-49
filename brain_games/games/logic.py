@@ -17,4 +17,4 @@ def play_game(game):
             break
         print('Correct!')
     else:
-        print(f'Congratulations, {name}')
+        print(f'Congratulations, {name}!')
