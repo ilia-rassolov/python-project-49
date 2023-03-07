@@ -1,7 +1,7 @@
 from random import randint
 
 
-game_condition = 'Answer "yes" if given number is prime. Otherwise answer "no"'
+game_condition = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def calculation_correct_answer():
