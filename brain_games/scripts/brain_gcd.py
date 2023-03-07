@@ -3,7 +3,7 @@ from brain_games.games import logic
 
 
 def main():
-    logic.game_make(gcd)
+    logic.play_game(gcd)
 
 
 if __name__ == '__main__':

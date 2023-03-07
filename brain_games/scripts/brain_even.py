@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-from brain_games.games.even import even_test
+from brain_games.games import even
+from brain_games.games import logic
 
 
 def main():
-    print("Welcome to the Brain Games!")
-    even_test()
+    logic.play_game(even)
 
 
 if __name__ == '__main__':
