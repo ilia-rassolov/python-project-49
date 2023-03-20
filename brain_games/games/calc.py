@@ -1,7 +1,7 @@
 from random import randint, choice
 
 
-game_condition = 'What is the result of the expression?'
+GAME_CONDITION = 'What is the result of the expression?'
 
 
 def calculation_correct_answer():

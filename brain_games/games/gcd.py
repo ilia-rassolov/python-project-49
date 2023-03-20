@@ -2,7 +2,7 @@ from math import gcd
 from random import randint
 
 
-game_condition = 'Find the greatest common divisor of given numbers.'
+GAME_CONDITION = 'Find the greatest common divisor of given numbers.'
 
 
 def calculation_correct_answer():

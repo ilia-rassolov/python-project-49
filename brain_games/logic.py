@@ -4,7 +4,7 @@ from brain_games.cli import welcome_user, name
 
 def play_game(game):
     welcome_user()
-    print(game.game_condition)
+    print(game.GAME_CONDITION)
     for i in range(3):
         question, correct_answer = game.calculation_correct_answer()
         print(f'Question: {question}')

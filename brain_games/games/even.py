@@ -1,7 +1,7 @@
 from random import randint
 
 
-game_condition = 'Answer "yes" if the number is even, otherwise answer "no".'
+GAME_CONDITION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def calculation_correct_answer():

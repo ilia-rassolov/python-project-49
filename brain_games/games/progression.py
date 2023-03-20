@@ -1,7 +1,7 @@
 from random import randint
 
 
-game_condition = 'What number is missing in the progression?'
+GAME_CONDITION = 'What number is missing in the progression?'
 
 
 def calculation_correct_answer():
