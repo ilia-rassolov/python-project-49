@@ -9,7 +9,7 @@
 
 Примеры решений указаны ниже в плеере asciinema
 
-Чтобы установить игру необходимо:
+Чтобы установить игру и запустить необходимо:
 1. Установить Python 3.6 или выше: 
 python -m pip install
 2. Установить poetry 1.2.0 или выше:
@@ -24,6 +24,8 @@ poetry install
 make build
 make publish
 make package-install
+[![asciicast](https://asciinema.org/a/ZzHIhGThu8wVnTeOA5JVkRism.svg)](https://asciinema.org/a/ZzHIhGThu8wVnTeOA5JVkRism)
+
 
 Готово! Можно запускать игры следующими командами:
 
@@ -36,19 +38,20 @@ brain-even
 
 [![asciicast](https://asciinema.org/a/Qltn8cPLpfb2o9OehuShKsGbm.svg)](https://asciinema.org/a/Qltn8cPLpfb2o9OehuShKsGbm)
 
+
 brain-calc
+
 [![asciicast](https://asciinema.org/a/PBQIBYdG9osCseVqaMy6884Hw.svg)](https://asciinema.org/a/PBQIBYdG9osCseVqaMy6884Hw)
+
 
 brain-gcd
 
 [![asciicast](https://asciinema.org/a/RQGU14N3qpHawQ7JqwNVB7eXK.svg)](https://asciinema.org/a/RQGU14N3qpHawQ7JqwNVB7eXK)
 
 
-
 brain-progression
 
 [![asciicast](https://asciinema.org/a/564451.svg)](https://asciinema.org/a/564451)
-
 
 
 brain-prime
