@@ -28,33 +28,30 @@ make package-install
 Готово! Можно запускать игры следующими командами:
 
 brain-games
+
 [![asciicast](https://asciinema.org/a/iQ2hBOQ6BpJQTQ0omn8PGJsAC.svg)](https://asciinema.org/a/iQ2hBOQ6BpJQTQ0omn8PGJsAC)
 
+
 brain-even
+
 [![asciicast](https://asciinema.org/a/Qltn8cPLpfb2o9OehuShKsGbm.svg)](https://asciinema.org/a/Qltn8cPLpfb2o9OehuShKsGbm)
 
 brain-calc
 [![asciicast](https://asciinema.org/a/PBQIBYdG9osCseVqaMy6884Hw.svg)](https://asciinema.org/a/PBQIBYdG9osCseVqaMy6884Hw)
 
 brain-gcd
+
 [![asciicast](https://asciinema.org/a/RQGU14N3qpHawQ7JqwNVB7eXK.svg)](https://asciinema.org/a/RQGU14N3qpHawQ7JqwNVB7eXK)
 
+
+
 brain-progression
+
 [![asciicast](https://asciinema.org/a/564451.svg)](https://asciinema.org/a/564451)
 
+
+
 brain-prime
+
 [![asciicast](https://asciinema.org/a/TWI6GTq3JiwSVxBJ3R9C9Wcq5.svg)](https://asciinema.org/a/TWI6GTq3JiwSVxBJ3R9C9Wcq5)
 
-
-
-
- 
-
-
-
-
-https://asciinema.org/a/xFrdfqMM2I9ZwvfPtZWXun5Yr
-https://asciinema.org/connect/ed1314b2-9677-4826-a07b-826da30c8268
-https://asciinema.org/a/RQGU14N3qpHawQ7JqwNVB7eXK
-https://asciinema.org/a/Fjk5pYSHUWfk6ZEf0sfaiIZei
-https://asciinema.org/a/TWI6GTq3JiwSVxBJ3R9C9Wcq5
