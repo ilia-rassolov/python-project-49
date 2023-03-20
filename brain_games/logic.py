@@ -1,10 +1,9 @@
 import prompt
+from brain_games.cli import welcome_user, name
 
 
 def play_game(game):
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    welcome_user()
     print(game.game_condition)
     for i in range(3):
         question, correct_answer = game.calculation_correct_answer()
