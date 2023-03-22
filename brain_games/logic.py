@@ -1,9 +1,9 @@
 import prompt
-from brain_games.cli import welcome_user, name
+from brain_games.cli import welcome_user
 
 
 def play_game(game):
-    welcome_user()
+    name = welcome_user()
     print(game.GAME_CONDITION)
     for i in range(3):
         question, correct_answer = game.calculation_correct_answer()
