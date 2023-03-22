@@ -15,4 +15,4 @@ def calculation_correct_answer():
         else:
             correct_answer = 'yes'
 
-    return question, str(correct_answer)
+    return (question, str(correct_answer))
