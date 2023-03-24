@@ -4,7 +4,7 @@ from random import randint
 GAME_CONDITION = 'What number is missing in the progression?'
 
 
-def calculation_correct_answer():
+def calculate_the_correct_answer():
     first_in_sequence = randint(0, 10)
     step_sequence = randint(1, 10)
     unknown_sequence_number = randint(0, 9)

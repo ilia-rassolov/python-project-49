@@ -4,7 +4,7 @@ from random import randint
 GAME_CONDITION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def calculation_correct_answer():
+def calculate_the_correct_answer():
     num = randint(0, 100)
     question = str(num)
     largest_divisor_number = int(num ** 0.5)

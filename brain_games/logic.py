@@ -3,10 +3,11 @@ from brain_games.cli import welcome_user
 
 
 def play_game(game):
+    NUMBER_OF_ROUNDS = 3
     name = welcome_user()
     print(game.GAME_CONDITION)
-    for i in range(3):
-        question, correct_answer = game.calculation_correct_answer()
+    for i in range(NUMBER_OF_ROUNDS):
+        question, correct_answer = game.calculate_the_correct_answer()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer != correct_answer:
