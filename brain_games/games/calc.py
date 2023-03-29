@@ -11,11 +11,15 @@ def calculate_the_correct_answer():
     number_1 = randint(1, 10)
     number_2 = randint(1, 10)
     question = f'{number_1} {sign} {number_2}'
-    if sign == '*':
-        correct_answer = mul(number_1, number_2)
-    elif sign == '+':
-        correct_answer = add(number_1, number_2)
-    else:
-        correct_answer = sub(number_1, number_2)
 
-    return (question, str(correct_answer))
+    def define_operator(x, y):
+        if sign == '*':
+            return mul(x, y)
+        elif sign == '+':
+            return add(x, y)
+        else:
+            return sub(x, y)
+
+    correct_answer = define_operator(number_1, number_2)
+
+    return question, str(correct_answer)
