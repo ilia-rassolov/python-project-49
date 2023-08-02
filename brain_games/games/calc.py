@@ -5,7 +5,7 @@ from operator import mul, add, sub
 GAME_CONDITION = 'What is the result of the expression?'
 
 
-def calculate_the_correct_answer():
+def calculate_correct_answer():
     all_signs = '*+-'
     sign = choice(all_signs)
     number_1 = randint(1, 10)

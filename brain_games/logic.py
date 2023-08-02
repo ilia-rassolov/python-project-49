@@ -1,13 +1,16 @@
 import prompt
-from brain_games.cli import welcome_user
+
+
+NUMBER_OF_ROUNDS = 3
 
 
 def play_game(game):
-    NUMBER_OF_ROUNDS = 3
-    name = welcome_user()
+    print("Welcome to the Brain Games!")
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
     print(game.GAME_CONDITION)
     for i in range(NUMBER_OF_ROUNDS):
-        question, correct_answer = game.calculate_the_correct_answer()
+        question, correct_answer = game.calculate_correct_answer()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer != correct_answer:
