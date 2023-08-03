@@ -22,54 +22,53 @@
 
 Готово! Можно запускать игры следующими командами:
 
-"`"brain-games"`"
+"brain-games"
 
 [![asciicast](https://asciinema.org/a/iQ2hBOQ6BpJQTQ0omn8PGJsAC.svg)](https://asciinema.org/a/iQ2hBOQ6BpJQTQ0omn8PGJsAC)
 
 
-"`"brain-even"`"
+"brain-even"
 
 [![asciicast](https://asciinema.org/a/Qltn8cPLpfb2o9OehuShKsGbm.svg)](https://asciinema.org/a/Qltn8cPLpfb2o9OehuShKsGbm)
 
 
-"`"brain-calc"`"
+"brain-calc"
 
 [![asciicast](https://asciinema.org/a/PBQIBYdG9osCseVqaMy6884Hw.svg)](https://asciinema.org/a/PBQIBYdG9osCseVqaMy6884Hw)
 
 
-"`"brain-gcd"`"
+"brain-gcd"
 
 [![asciicast](https://asciinema.org/a/RQGU14N3qpHawQ7JqwNVB7eXK.svg)](https://asciinema.org/a/RQGU14N3qpHawQ7JqwNVB7eXK)
 
 
-"`"brain-progression"`"
+"brain-progression"
 
 [![asciicast](https://asciinema.org/a/564451.svg)](https://asciinema.org/a/564451)
 
 
-"`"brain-prime"`"
+"brain-prime"
 
 [![asciicast](https://asciinema.org/a/TWI6GTq3JiwSVxBJ3R9C9Wcq5.svg)](https://asciinema.org/a/TWI6GTq3JiwSVxBJ3R9C9Wcq5)
 
 
 
-Требования к установке проекта:
+Требования к установке проекта для разработчика:
 1. Установить Python 3.6 или выше: 
-"`"python -m pip install"`"
+"python -m pip install"
 2. Установить poetry 1.2.0 или выше:
-"`"poetry -m pip install"`"
+"curl -sSL https://install.python-poetry.org | python3 -"
 3. Настроить poetry для создания виртуального окружения:
-"`"poetry config virtualenvs.in-project true"`"
+poetry config virtualenvs.in-project true
 
-Чтобы установить игру и запустить необходимо:
-1. Клонируйте пакет:
-"`"git clone git@github.com:ilia-rassolov/python-project-49.git"`"
-2. Установите пакет:
-"`"poetry install"`"
-3. Выполните сборку пакета, отладку публикации и установку в систему:
 
-"`"make build"`"
+Чтобы установить игру и запустить пользователю, необходимо:
 
-"`"make publish"`"
-
-"`"make package-install"`"
+1. Клонировать пакет:
+"git clone git@github.com:ilia-rassolov/python-project-49.git"
+2. Установить пакет:
+"poetry install"
+3. Выполнить сборку пакета, отладку публикации и установку в систему:
+"poetry build"
+"poetry publish --dry-run"
+"python3 -m pip install --force-reinstall --user dist/*.whl"
