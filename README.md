@@ -54,21 +54,25 @@
 
 
 Требования к установке проекта для разработчика:
-1. Установить Python 3.6 или выше: 
-"python -m pip install"
-2. Установить poetry 1.2.0 или выше:
-"curl -sSL https://install.python-poetry.org | python3 -"
-3. Настроить poetry для создания виртуального окружения:
-poetry config virtualenvs.in-project true
 
+Для установки проекта требуются установленные CPython не ниже 3.6 и poetry не ниже 1.2.0
 
 Чтобы установить игру и запустить пользователю, необходимо:
+1. Установить Python
+**sudo apt update**
+**sudo app install python3**
+2. Установить poetry
+**curl -sSL https://install.python-poetry.org | python3 -**
+3. Настроить poetry для создания виртуального окружения
+**poetry config virtualenvs.in-project true**
+4. Клонировать пакет:
+**git clone git@github.com:ilia-rassolov/python-project-49.git**
+5. Из новой директории python-project-49 установить пакет командой
+**poetry install**
+6. Выполнить сборку пакета, отладку публикации и установку в систему
+**make build**
+**make publish**
+**make install**
 
-1. Клонировать пакет:
-"git clone git@github.com:ilia-rassolov/python-project-49.git"
-2. Установить пакет:
-"poetry install"
-3. Выполнить сборку пакета, отладку публикации и установку в систему:
-"poetry build"
-"poetry publish --dry-run"
-"python3 -m pip install --force-reinstall --user dist/*.whl"
+Теперь можно запускать игры
+
