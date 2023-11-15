@@ -59,20 +59,35 @@
 
 Чтобы установить игру и запустить пользователю, необходимо:
 1. Установить Python
+
 **sudo apt update**
+
 **sudo app install python3**
+
 2. Установить poetry
+
 **curl -sSL https://install.python-poetry.org | python3 -**
+
 3. Настроить poetry для создания виртуального окружения
+
 **poetry config virtualenvs.in-project true**
+
 4. Клонировать пакет:
+
 **git clone git@github.com:ilia-rassolov/python-project-49.git**
+
 5. Из новой директории python-project-49 установить пакет командой
+
 **poetry install**
+
 6. Выполнить сборку пакета, отладку публикации и установку в систему
+
 **make build**
+
 **make publish**
+
 **make install**
+
 
 Теперь можно запускать игры
 
